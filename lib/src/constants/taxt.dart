@@ -59,3 +59,25 @@ const String tForgetPhoneSubTitle = "Enter your registered Phone No to receive O
 
 // -- Forget Password Via E-Mail - Text
 const String tForgetMailSubTitle = "Enter your registered E-Mail to receive OTP";
+
+/*-- OTP Screen Text--*/
+const String tOtpTitle = "CO\nDE";
+const String tOtpSubTitle = "Verification";
+const String tOtpMessage = "Enter the verification code sent at";
+
+/*Profile screen*/
+const String tProfile = "Profile";
+const String tEditProfile = "Edit Profile";
+const String tLogoutDialogHeading = "Logout";
+const String tProfileHeading = "Coding with T";
+const String tProfileSubHeading = "maulik@gmail.com";
+//menus
+const String tMenu1 = "Setting";
+const String tMenu2 = "Billing Details";
+const String tMenu3 = "User Management";
+const String tMenu4 = "Information";
+const String tMenu5 = tLogoutDialogHeading;
+
+const String tDelete = "Delete";
+const String tJoined = "Joined ";
+const String tJoinedAt = "31 Jan 2023";

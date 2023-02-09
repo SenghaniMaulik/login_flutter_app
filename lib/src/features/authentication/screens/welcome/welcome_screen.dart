@@ -7,6 +7,7 @@ import 'package:login_flutter_app/src/common_widgets/fade_in_animation/fade_in_a
 import 'package:login_flutter_app/src/constants/images.dart';
 import 'package:login_flutter_app/src/constants/sizes.dart';
 import 'package:login_flutter_app/src/features/authentication/screens/login/login_screen.dart';
+import 'package:login_flutter_app/src/features/authentication/screens/signup/sign_up_screen.dart';
 
 import '../../../../common_widgets/fade_in_animation/animation_design.dart';
 import '../../../../constants/colors.dart';
@@ -71,7 +72,9 @@ class WelcomeScreen extends StatelessWidget {
                       const SizedBox(width: 10.0),
                       Expanded(
                         child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Get.to(SignUpScreen());
+                          },
                           child: Text(tSignup.toUpperCase()),
                         ),
                       ),
